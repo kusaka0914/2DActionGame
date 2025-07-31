@@ -1,0 +1,35 @@
+# ビルド生成物
+build/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# CMake生成ファイル
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+
+# IDE・エディタ設定ファイル
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS固有ファイル
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# 一時ファイル
+*.tmp
+*.temp
+*.log
+
+# 実行ファイル
+2DGame
